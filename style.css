@@ -1,0 +1,356 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0E2954;
+    background-color: #9AC5F4;
+    /* background-image: url(./images/background.jpg);
+    background-repeat: no-repeat; */
+    /* color: white; */
+}
+
+p {
+    font-weight: bold;
+}
+
+/* Navigation Section CSS */
+.nav_sec {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #0E2954;
+    color: white;
+    /* border-radius: 15px; */
+}
+
+/* .bg{
+    width: 100%;
+    
+} */
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 0px;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.na {
+    text-decoration: none;
+    color: white;
+    /* border-bottom: 2px solid white; */
+    
+    /* padding:10px; */
+    transition: 0.1s;
+}
+
+.na:hover {
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    /* border-collapse: collapse; */
+    /* font-weight: bold; */
+}
+
+/* .under {
+    border-color: white;
+    border-width: 1px;
+    width: 100%;
+} */
+
+
+/*  */
+
+
+
+/* Introduction Section CSS */
+
+.pro_my {
+    height: 400px;
+    width: 600px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), -2px -2px 4px rgba(0, 0, 0, 0.4);
+    background-color: #4F709C;
+    background-size: cover;
+}
+
+.nav_container_2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    font-size: 2rem;
+    /* text-align: center; */
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #0E2954;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.span2{
+    background: #0E2954;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 00.5s;
+}
+button:hover .span2{
+    width:100%;
+    /* color: white; */
+}
+button:hover{
+    /* border: none; */
+    color: white;
+}
+
+.hr_1 {
+    width: 95%;
+    border-color: #0E2954;
+    border-width: 2px;
+    margin-top: 50px;
+}
+
+/*  */
+
+/* Project & Certificate Section CSS */
+
+.proj_cert_container {
+    display: flex;
+    /* gap: 50px; */
+    margin-left: 100px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    /* width: 800px; */
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    /* width: 800px; */
+}
+
+.logo_png {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: #0E2954;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.link_sec {
+    height: 60px;
+    width: 60px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.brief {
+    width: 80%;
+    text-align: justify;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+/*  */
+
+/* Contact Me Section CSS */
+
+.con_me {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*  */
+
+/* Footer CSS */
+
+.foot_nav{
+    background-color: #0E2954;
+    color: white;
+    /* border-radius: 10px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.foot_con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_sm {
+    height: 25px;
+    width: 25px;
+    background: transparent;
+}
+
+/* #git {
+    width: 90px;
+} */
+
+svg{
+    height: 25px;
+    width: 25px;
+}
+
+.social_media {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*  */
+
+@media (max-width: 510px) {
+    .nav_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .foot_con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copy_r {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social_media {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .brief{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+    .p_pc{
+        width: 80%;
+    }
+    .logo_png{
+        width: 80%;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+    .link{
+        display: flex;
+        justify-content: space-around;
+    }
+    .link_sec{
+        width: 80%;
+    }
+}
+
+@media (max-width:920px) {
+    .nav_container_2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .imga {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pro_my {
+        height: 300px;
+        width: 340px;
+    }
+
+    .project{
+        width: 100;
+    }
+
+    .brief{
+        width: 100%;
+    }
+
+    .proj_cert_container {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-right: 50px */
+        gap: 50px;
+    }
+
+    
+
+    
+
+
+}

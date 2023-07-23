@@ -1,0 +1,150 @@
+body{
+    background-color: #9AC5F4;
+    margin: 0;
+    padding: 0;
+    color: #0E2954;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav_sec_abt{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #0E2954;
+    color: white;
+    /* border-radius: 15px; */
+}
+
+.nav_container_abt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.na {
+    text-decoration: none;
+    color: white;
+    /* border-bottom: 2px solid white; */
+    
+    /* padding:10px; */
+    transition: 0.1s;
+}
+
+.na:hover {
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    /* border-collapse: collapse; */
+    /* font-weight: bold; */
+}
+
+.home_abt{
+    display: flex;
+    align-items: center;
+}
+
+.under_abt {
+    border-color: white;
+    border-width: 1px;
+    width: 100%;
+}
+
+h1{
+    font-size: 2rem
+}
+
+
+/*  */
+
+.ti_im_container{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.im_abt{
+    height: 320px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4), -2px -2px 4px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+img{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+}
+
+.info_abt{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    width: 80%;
+    font-weight: bolder;
+}
+
+.foot_nav{
+    background-color: #0E2954;
+    color: white;
+    /* border-radius: 10px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.foot_con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_sm {
+    height: 25px;
+    width: 25px;
+    background: transparent;
+}
+
+/* #git {
+    width: 90px;
+} */
+
+svg{
+    height: 25px;
+    width: 25px;
+}
+
+.social_media {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width: 510px) {
+    
+    .foot_con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copy_r {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social_media {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}

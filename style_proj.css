@@ -1,0 +1,244 @@
+body {
+    background-color: #9AC5F4;
+    margin: 0;
+    padding: 0;
+    color: #0E2954;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Navigation Section CSS */
+.nav_sec_proj {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #0E2954;
+    color: white;
+    /* border-radius: 15px; */
+}
+
+/* .bg{
+    width: 100%;
+    
+} */
+
+.nav_container_proj {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 0px;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.navigation_proj{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.na {
+    text-decoration: none;
+    color: white;
+    /* border-bottom: 2px solid white; */
+    
+    /* padding:10px; */
+    transition: 0.1s;
+}
+
+.na:hover {
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    /* border-collapse: collapse; */
+    /* font-weight: bold; */
+}
+
+.under_proj {
+    border-color: white;
+    border-width: 1px;
+    width: 100%;
+}
+
+/*  */
+
+.con_proj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.pro {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+p {
+    text-align: justify;
+    width: 320px;
+    margin-left: 45px;
+    /* overflow:scroll; */
+}
+
+.proj {
+    position: relative;
+    height: 400px;
+    width: 420px;
+    background-color: #0E2954;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    overflow: auto;
+    box-shadow: 10px 10px #0D4662;
+    transition: 0.5s;
+}
+
+.proj h3{
+    background: #0E2954;
+    position: sticky;
+    /* gap: 10px; */
+    top: 0;
+}
+
+.proj:hover{
+    box-shadow: 20px 20px #0D4662;
+}
+  
+::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+
+/* Hide the scrollbar thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+
+/*  */
+
+
+/* Footer CSS */
+
+.foot_nav {
+    background-color: #0E2954;
+    color: white;
+    /* border-radius: 10px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.foot_con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_sm {
+    height: 25px;
+    width: 25px;
+    background: transparent;
+}
+
+/* #git {
+    width: 90px;
+} */
+
+svg {
+    height: 25px;
+    width: 25px;
+}
+
+.social_media {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:860px) {
+    .pro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 150px; */
+        gap: 50px
+    }
+
+    .proj {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 90%;
+        text-align: left;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    p {
+        margin-left: 15px;
+        width: 90%;
+    }
+
+}
+
+@media (max-width:510px) {
+    .nav_container_proj {
+        /* width: 100 */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header_proj {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        /* gap: 15px; */
+    }
+
+    .foot_con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copy_r {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .social_media {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
