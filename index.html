@@ -107,8 +107,11 @@
                     <br>simply want to say hello, feel free to reach out. I look forward to hearing from you!
                 </p>
             </div>
-            <div class="btn_con" style="margin-top: 30px;"><button id="contactButton"><span class="span2"></span>Contact
-                    Me</button></div>
+            <div class="btn_con" style="margin-top: 30px;">
+                <button id="contactButton"><span class="span2"></span>E-Mail</button>
+                <button id="callButton"><span class="span2"></span>Phone
+                    Number</button>
+            </div>
         </div>
     </section>
 
@@ -151,6 +154,15 @@
             var emailAddress = 'harshalumasare151@gmail.com';
             window.open('mailto:' + emailAddress);
         });
+
+
+        document.getElementById("callButton").addEventListener("click", function () {
+            var phoneNumber = "9730077713";
+            var telLink = "tel:" + phoneNumber;
+            window.location.href = telLink;
+        });
+
+
 
     </script>
 </body>
